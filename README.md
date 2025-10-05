@@ -54,22 +54,21 @@ It also visualizes **ROC curves** to compare model performance.
 ---
 
 ## Installation
-1. Clone the repository:  
-```bash
-git clone https://github.com/your-username/diabetes-detection.git
+1. Clone the repository:
+git clone https://github.com/saarthakmathur/diabetes-detection.git
 cd diabetes-detection
-Install dependencies:
 
-bash
-Copy code
+## Install dependencies:
+
 pip install -r requirements.txt
 Usage
+
 Run the main Python script:
 
-bash
-Copy code
 python diabetes_detection.py
-The script will:
+
+
+## The script will:
 
 Load and preprocess the dataset.
 
@@ -81,14 +80,15 @@ Evaluate and print model metrics.
 
 Plot ROC curves for all models.
 
-Models & Evaluation
+## Models & Evaluation
+
 Logistic Regression: Baseline ML model.
 
 Random Forest: Ensemble model with class weighting.
 
 Neural Network: Keras-based deep learning model with Dropout layers.
 
-Evaluation Metrics:
+### Evaluation Metrics:
 
 Accuracy
 
@@ -102,14 +102,16 @@ ROC-AUC
 
 Confusion Matrix
 
-Results
+## Results
+
 The project prints detailed metrics for all three models.
 
 ROC curves allow visual comparison of model performance.
 
 SMOTE improves model accuracy on imbalanced datasets.
 
-Dependencies
+## Dependencies
+
 pandas
 
 numpy
@@ -124,8 +126,10 @@ seaborn
 
 tensorflow
 
-Install all dependencies with:
+### Install all dependencies with:
 
-bash
-Copy code
 pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn tensorflow
+
+## Author
+
+### Saarthak Mathur
