@@ -55,7 +55,7 @@ It also visualizes **ROC curves** to compare model performance.
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/saarthakmathur/diabetes-detection.git
+git clone https://github.com/saarthakmathur/Diabetes_Detection
 cd diabetes-detection
 
 ## Install dependencies:
